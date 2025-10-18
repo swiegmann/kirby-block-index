@@ -1,5 +1,11 @@
 # Kirby Index Block
 
+## 1.0.4
+
+- compatibility fixes for Kirby 5
+  - removed `type: group` from some blueprints
+  - filter by `intendedTemplate` instead of `template` when limiting to templates
+
 ## 1.0.3
 
 - **BREAKING:** Replaced wrong usage of ARIA-Attribute `aria-current` with a CSS-Class.

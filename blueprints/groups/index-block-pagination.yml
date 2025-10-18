@@ -1,5 +1,3 @@
-type: group
-
 fields:
   _pagination_navigation_headline:
     type: headline

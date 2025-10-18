@@ -79,7 +79,7 @@ class IndexBlock extends Block
 				$templates = $this->content()->get('templates');
 
 				if (!is_null($templates->value()) && strlen($templates->value())) {
-					$result = $result->filterBy('template', 'in', $templates->split(', '));					
+					$result = $result->filterBy('intendedTemplate', 'in', $templates->split(', '));					
 				}
 			}
 		}

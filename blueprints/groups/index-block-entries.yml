@@ -1,5 +1,3 @@
-type: group
-
 fields:
   _entries_headline:
     type: headline

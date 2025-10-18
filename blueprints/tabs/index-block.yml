@@ -1,5 +1,7 @@
 label: index-block.tab.main.label
 
+icon: list-bullet
+
 extends:
   - groups/index-block-snippets
   - groups/index-block-custom-entry-fields
