@@ -201,7 +201,7 @@ class IndexBlock extends Block
 	}
 
 
-	public function paginationOffset(Kirby\Cms\Pagination $pagination = null)
+	public function paginationOffset(?Kirby\Cms\Pagination $pagination = null)
 	{
 		return ($pagination && $this->content()->get('show_entry_number')->toBool())
 			? $pagination->offset()
@@ -209,7 +209,7 @@ class IndexBlock extends Block
 	}
 
 
-	public function paginationTextNextPage(Kirby\Cms\Pagination $pagination = null)
+	public function paginationTextNextPage(?Kirby\Cms\Pagination $pagination = null)
 	{
 		if (!$pagination || !$this->content()->get('show_navigation')->toBool()) {
 			return '';
@@ -221,7 +221,7 @@ class IndexBlock extends Block
 	}			
 	
 
-	public function paginationTextPreviousPage(Kirby\Cms\Pagination $pagination = null)
+	public function paginationTextPreviousPage(?Kirby\Cms\Pagination $pagination = null)
 	{
 		if (!$pagination || !$this->content()->get('show_navigation')->toBool()) {
 			return '';

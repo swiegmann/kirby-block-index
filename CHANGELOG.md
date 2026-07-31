@@ -1,5 +1,9 @@
 # Kirby Index Block
 
+## 1.0.5
+
+- fix PHP 8.4 deprecation (nullable types)
+
 ## 1.0.4
 
 - compatibility fixes for Kirby 5
